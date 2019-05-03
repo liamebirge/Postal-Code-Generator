@@ -1,6 +1,6 @@
 /********************************************************/
 //	     	  Generate Random Postal Codes	    		//
-//	 Author: Liam English-Birge		Date: 05/01/2019	//
+//	 Author: Liam English-Birge		Date: 05/02/2019	//
 /********************************************************/
 
 
@@ -12,7 +12,7 @@ public class codeGenerator {
 		//make array of alphabet
 		char alphabet[] = new char[] {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 		int number1, number2, number3, number4, number5, iterations;//variables for individual numbers in both code types
-		char letter1, letter2, letter3;//letter vairables for CA codes
+		char letter1, letter2, letter3;//letter variables for CA codes
 		String genCodesUS, searchCodesUS = new String(), genCodesCA, searchCodesCA = new String(), searchCA = "", search;//storage variables for codes in loops as well as searches
 		Random r = new Random();//random number generator
 		boolean generatingCA = true, generatingUS = true, generating = true;//make all loop variables true
