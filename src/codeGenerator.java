@@ -79,7 +79,7 @@ public class codeGenerator {
 						} else if (cont == 3) {//shut program down
 							break BREAK_ALL;
 						} else {//error catch
-							System.out.println("That wasn't a valid option, please try again.");
+							System.out.println("\nThat wasn't a valid option, please try again.");
 						}
 					}
 				}
@@ -141,7 +141,7 @@ public class codeGenerator {
 						} else if (cont == 3) {//quit program
 							break BREAK_ALL;
 						} else {//error catch
-							System.out.println("That wasn't a valid option, please try again.");
+							System.out.println("/nThat wasn't a valid option, please try again.");
 						}
 					}
 				}	
@@ -149,20 +149,22 @@ public class codeGenerator {
 				System.out.println("\n\n---------Program-Help---------");
 				System.out.println("How to use the program: \n"
 						+ "--Menu Advice--\n"
-						+ "Menu options are given as numbers in perenthesis EX:'(1). Option'.\n"
-						+ "To select an option in the menus, enter the number of your desired selection and press enter.\n"
-						+ "Entering a letter or symbol will result in a crash, so stick to numbers.\n"
+						+ "* Menu options are given as numbers in perenthesis EX:'(1). Option'.\n"
+						+ "* To select an option in the menus, enter the number of your desired selection and press enter.\n"
+						+ "* Entering a letter or symbol will result in a crash, so stick to numbers.\n"
 						+ "\n--Search Advice--\n"
-						+ "You may search through the latest generated codes as many times as needed,"
+						+ "* The search is case sensitive, so use all caps when searching for Canadian codes.\n"
+						+ "* You may search through the latest generated codes as many times as needed,"
 						+ "\n	however if new codes are generated or the main menu is accessed, the previous codes are deleted.\n"
-						+ "US postal codes come in groups of five numbers with no spaces or letters, "
+						+ "* US postal codes come in groups of five numbers with no spaces or letters, "
 						+ "\n	so when entering in a search query for US codes, do not put in any spaces or lettering.\n"
-						+ "Canadian postal codes come in groups of 6 characters with alternating numbers and letters (EX: A1B2C3), "
+						+ "* Canadian postal codes come in groups of 6 characters with alternating numbers and letters (EX: A1B2C3), "
 						+ "\n	so do not enter any spaces, and use the postal code's format when entering a search query.\n"
-						+ "You may search for as many or as little digets of the codes as you'd like, "
+						+ "* You may search for as many or as little digets of the codes as you'd like, "
 						+ "\n	the search engine will search for any code containing the search group.\n"
-						+ "You may generate as many codes as you would like, just remember that larger numbers of codes"
-						+ "\n	mean longer calculation times and longer search times.\n");
+						+ "* You may generate as many codes as you would like, just remember that larger numbers of codes"
+						+ "\n	mean longer calculation times and longer search times.\n"
+						+ "* Any duplicate searched items will show up as seperate results\n");
 				wait4Enter();//exits to main menu on enter press
 			} else if (nationality == 4) {//quit program
 				break BREAK_ALL;
