@@ -174,6 +174,8 @@ public class codeGenerator {
 		}
 		System.out.print("\nShutting down...");//inform user that program is successfully shutting down
 	}
+	
+	@SuppressWarnings("resource")
 	public static void wait4Enter() {//new method
 		Scanner s = new Scanner(System.in);//initialize scanner
 		System.out.println("Press enter to exit back to main menu.");//prompt user
